@@ -14,7 +14,7 @@ import {
 import { FaBars } from 'react-icons/fa';
 
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
     return (
         <>
             <Nav>
@@ -22,7 +22,7 @@ const Navbar = () => {
                     <NavLogo to="/">
                         Dolla
                     </NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
