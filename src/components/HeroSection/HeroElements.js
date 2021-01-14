@@ -34,7 +34,7 @@ z-index: 1;
 export const HeroBg = styled.div`
 
 position: absolute;
-top:" 0;
+top: 0;
 right: 0;
 bottom: 0;
 left: 0;
@@ -117,7 +117,8 @@ font-size: 20px;
 `;
 
 export const ArrowRight = styled(MdKeyboardArrowRight)`
-
+margin-left: 8px;
+font-size: 20px;
 
 
 `
