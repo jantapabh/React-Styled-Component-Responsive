@@ -23,7 +23,7 @@ top: 0;
 
 export const CloseIcon = styled(FaTimes)`
 color: #fff;
-`
+`;
 export const Icon = styled.div`
 
 position: absolute;
@@ -93,12 +93,13 @@ text-decoration: none;
 export const SidebarMenu = styled.ul`
 
 display: grid;
-grid-template-colums: 1fr;
+grid-template-columns: 1fr;
 grid-template-rows: repeat(6, 80px);
 text-align: center;
 
 @media screen and (max-width: 480px)
+{
+    grid-template-rows: repeat(6, 60px);
 
-grid-template-rows: repeat(6, 60px);
-
+}
 `;
