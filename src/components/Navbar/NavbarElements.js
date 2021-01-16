@@ -26,7 +26,7 @@ export const NavbarContainer = styled.div`
 
 display: flex;
 justify-content: space-between;
-height: 80px
+height: 80px;
 z-index: 1;
 width: 100%;
 padding: 0 24px;
@@ -76,7 +76,6 @@ margin-right: -22px;
 
 @media screen and (max-width: 768px) {
     display: none;
-    
 }
 
 `;
@@ -99,6 +98,7 @@ height: 100%;
 cursor: pointer;
 
 &.active {
+
     border-bottom: 3px solid #01bf71;
 }
 
@@ -135,6 +135,6 @@ text-decoration: none;
     color: #010606;
 }
 
-`
+`;
 
 

@@ -26,7 +26,7 @@ height: 1300px;
 
 `;
 
-export const ServicesWrapper = styled.dic`
+export const ServicesWrapper = styled.div`
 
 max-width: 1000px;
 margin: 0 auto;
@@ -58,7 +58,8 @@ export const ServicesCard = styled.div`
 
 background: #fff;
 display: flex;
-flex-direction: flex-start;
+flex-direction: column;
+justify-content: flex-start;
 align-items: center;
 border-radius: 10px;
 max-height: 340px;
