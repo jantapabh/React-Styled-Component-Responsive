@@ -15,9 +15,19 @@ import {
     WebsiteRight
 } from './FooterElements'
 import { FaFacebook, FaYoutube, FaTwitter, FaInstagram, FaLinkedin} from 'react-icons/fa'
-
+import { IconContext } from 'react-icons/lib'
+import { animateScroll as scroll } from 'react-scroll'
 
 const FooterSection = () => {
+
+    const toggleHome = () => {
+
+        scroll.scrollToTop();
+    }
+
+    useEffect(() => {
+        toggleHome()
+    },[])
 
     return (
         <FooterContainer>
@@ -60,7 +70,7 @@ const FooterSection = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to="/">
+                        <SocialLogo to="/" onClick={toggleHome}>
                             Dolla
                         </SocialLogo>
                         <WebsiteRight>Dolla : 2020 
