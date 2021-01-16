@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Video from '../../videos/video.mp4'
+import Video from '../../videos/videoTwo.mp4'
 import {
     HeroContainer,
     HeroBg,
@@ -30,7 +30,7 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Intern Dev In Pi R Square</HeroH1>
+                <HeroH1>ALDERY SYSTEM</HeroH1>
                 <HeroP>Sign up a new account today and recieve $250 in
                 credit towards your
                          next payment</HeroP>
